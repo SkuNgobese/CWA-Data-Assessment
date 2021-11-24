@@ -1,0 +1,12 @@
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\bin\Debug\CWA_Assessment.exe.config
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\bin\Debug\CWA_Assessment.exe
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\bin\Debug\CWA_Assessment.pdb
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\bin\Debug\PervasiveImporter (32 bit).dll
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\obj\Debug\CWA_Assessment.csproj.AssemblyReference.cache
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\obj\Debug\CWA_Assessment.Form1.resources
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\obj\Debug\CWA_Assessment.Properties.Resources.resources
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\obj\Debug\CWA_Assessment.csproj.GenerateResource.cache
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\obj\Debug\CWA_Assessment.csproj.CoreCompileInputs.cache
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\obj\Debug\CWA_Assessment.exe
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\obj\Debug\CWA_Assessment.pdb
+C:\Users\Innocent\source\repos\CWA-Data-Assessment\CWA_Assessment\obj\Debug\CWA_Assessment.csproj.CopyComplete
