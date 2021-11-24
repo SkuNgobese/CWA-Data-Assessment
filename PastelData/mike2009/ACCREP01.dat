@@ -1,0 +1,123 @@
+51e
+B A L A N C E    S H E E T
+as at #E
+
+
+UN000NN NBalance Sheet
+;
+T00R-11 0      R    This  Yr  A
+L00R-11 0      R    Last Yr   A
+;
+1LCN    ASSETS
+2LCN    Non Current Assets
+2RDN1P  Other Fixed Assets
+1RDN1A  Goodwill / Intangible AssetsFTB45
+1RDN    InvestmentsFTB40
+1LDN    _SC 
+1RDN     TOT1
+1LDN    Current Assets
+1LDY2P  InventoryFTB50
+1LDY2A  Accounts ReceivableFTB55
+2LDY2A  Other Current AssetsFTB65
+2LDY2A  Bank / Cash on HandFTB60
+1LDY2A  Accounts PayableFTB70
+1LDY2A  Taxation DueFTB75
+1LDY2A  Other Current LiabilitiesFTB80
+1LDN    _SC 
+1RDN     TOT2
+1RDN    _SC 
+1RDN    Total AssetsTOT1+TOT2
+1RCN    _DC 
+2LDN0C  EQUITY AND LIABILITIES
+2LDN    Capital And Reserves
+1LCN3P  Owners Equity / Share CapitalFTB10
+1LCN3A  Accumulated Profit/(Loss)FTB15+FTI15+FTI20+FTI25+FTI30+FTI35+FTI10
+1LCN0   Owners / Shareholders Interest
+1LCN3A  Shareholders / Directors LoansFTB20
+1LDN    _SC 
+1RDN     TOT3
+2RCN    Minority Interest
+1LCN4A  Long Term LiabilitiesFTB25
+1LCN4A1 Other Long Term LiabilitiesFTB30
+1LDY    _SC 
+1RDN     TOT4
+1LCN    Current Liabilities
+1LCY5P  Accounts PayableFTB70
+1LCY5A  Other Current LiabilitiesFTB80
+1LCY5A  Taxation  DueFTB75
+1LCY5A  InventoryFTB50
+1LCY5A  Accounts ReceivableFTB55
+1LCY5A  Bank / Cash on HandFTB60
+1LCY5A  Other Current AssetsFTB65
+1LDN    _SC 
+1RCN     TOT5
+1RDN    _SC 
+1LCN    Total Equity and LiabilitiesTOT3+TOT5+TOT4
+1LDN0   _DC 
+1LCN0   Notes to the balance Sheet -->NOTE1
+PLDN0    
+1LDN0   Notes To The Balance Sheet
+1LCN0   ==========================
+1LCN     
+1LCN    1) Other Long Term Liabilities
+1LCN    ------------------------------
+1LCN     FBB30
+1LCN    _SC 
+1LCN0   Total L. T. LiabilitiesFTB30
+1LCN    _DC 
+1LCN     
+1LDN    2) Fixed Assets
+1LCN    --------------------------
+1LDN0    FSB35
+1LDN0   _SC
+1LDN0   Fixed  Assets - Net Book ValueFTB35
+1LCN     
+PLCN     
+1LCN    Balance Sheet Notes continued
+1LCN    =======================
+1LCN0    
+1LDN0   3) Inventory on Hand
+1LDN0   ------------------------------
+1LDN0    FBB50
+1LCN0   _SC
+1LDN0   Total Inventory on HandFTB50
+1LDN0   _DC
+1LCN0    
+1LDN    4) Accounts Receivable
+1LCN    ------------------------------
+1LDN     FMB55
+1LCN    _SC
+1LDN    Net Accounts ReceivableFTB55
+1LCN    _DC
+1LCN     
+1LDN0   5) Other Current Assets
+1LDN0   ------------------------------
+1LDN0    FBB65
+1LDN0   _SC
+1LDN0   Total Other Current AssetsFTB65
+1LCN0   _DC
+1LCN0    
+1LDN0   6) Bank / Cash on Hand 
+1LCN0   ------------------------------
+1LDN0    FBB60
+1LCN0   _DC
+1LDN0   Total Bank / Cash on HandFTB60
+1LCN0   _DC
+PLCN     
+1LCN    Balance Sheet Notes Continued 
+1LCN    ==============================
+1LCN0    
+1LCN0   7) Other Current Liabilities
+1LCN0   ------------------------------
+1LCN0    FBB80
+1LCN0   _SC
+1LCN0   Total Other Current LiabitiesFTB80
+1LCN0   _DC
+1LCN     
+1LCN    8) Taxation  Due
+1LCN    ------------------------------
+1LCN     FBB75
+1LCN    _SC
+1LCN    Total Taxation DueFTB75
+1LCN    _DC
+1LCN     

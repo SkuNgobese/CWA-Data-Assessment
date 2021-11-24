@@ -1,0 +1,23 @@
+51 
+DETAILED EXPENSES COMPARATIVES
+For the 1st 6 months periods ending #E
+
+
+MN100NN NDetailed Expenses 1-6
+;
+T00F 1  1   March              
+T00F 2  2   April             A
+T00F 3  3   May               A
+T00F 4  4   June              A
+T00F 5  5   July              A
+T00F 6  6   Aug               A
+T00R-5  0 Yr to Date1st 6 MnthA
+;
+2YDN    DETAILED EXPENSES
+1YCN    (Including Sub Accounts)
+1YDN    ========================
+1YDN     
+1YDN     FBI25
+1YDN    _SC
+1YDN    Total ExpensesFTI25
+1YDN    _DC

@@ -1,0 +1,86 @@
+50 
+I N C O M E    S T A T E M E N T
+COMPARATIVES FOR THE FIRST 6 MONTHS
+Periods ending #E
+
+MN000NN NIncome Statement 1-6
+;
+T00F 1  12  March             A
+T00F 1  12  April             A
+T00F 1  12  May               A
+T00F 1  12  June              A
+T00F 1  12  July              A
+T00F 1  12  August            A
+T00R-11 0 Yr to Date1st 6 MnthA
+;
+2YCN1P  Sales 
+1YCN     
+1YCN1A  Less: Cost of SalesFTI15
+1YDN    _S1 
+1YCN  1 Gross Profit / (Loss) TOT1
+1YCN     
+1YCN1A  Add: Other IncomeFTI20
+1YCN    _SC 
+1YCN     FMI20
+1YCN    _SC 
+1YCN     TOT1
+1YCN     
+1YCN1A  Less: ExpensesFTI25
+1YDN    _SC 
+1YDN     FMI25
+1YDN    _SC 
+1YCN    Net Profit/(Loss) before TaxTOT1
+1YCN     
+1YCN1A2 Less: Normal Taxation FTI30
+1YDN    _SC 
+1YCN    Net Profit/(Loss) After TaxTOT1
+1YDN     
+1YCN1A  Less: Dividends Declared /PaidFTI35
+1YCN    _SC 
+1YCN    Net Profit/(Loss) after Div.TOT1
+1YCN     
+1YCN1A  Retained Income/(Deficit B/FrdFTB15
+1YCN    _SC 
+1YCN     Retained Income/(Deficit) TOT1
+1YCN    _DC 
+PYCN     
+1YCN    Income Statement  Notes
+1YCN    ======================
+1YCN     
+1YCN    1) Sales/Cost of Sales Details
+1YCN    ------------------------------
+1YCN    Sales
+1YCN    ---------
+1YCN     FBI10
+1YCN    _SC 
+1YCN    Total salesFTI10
+1YCN     
+1YCN    Less: Cost of Sales
+1YCN    ------------------------------
+1YCN     FBI15
+1YCN    _SC 
+1YCN    Total Cost of SalesFTI15
+1YCN     
+1YCN    Gross Profit / (Loss)FTI10+FTI15
+1YCN    _DC 
+1YCN     
+1YCN    2) Normal Taxation
+1YCN    ------------------------------
+1YDN     FBI30
+1YDN    _SC 
+1YDN    Total TaxationFTI30
+1YDN    _DC 
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     

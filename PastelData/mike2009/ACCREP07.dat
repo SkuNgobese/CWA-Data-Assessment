@@ -1,0 +1,79 @@
+50 
+I N C O M E    S T A T E M E N T
+for the year to date ending #E
+
+
+MN100NN YIncome Statement - Year Ending
+;
+S00  0  0                     A
+T00R-11 0         R This Yr   A
+S00  0  0                     A
+L00R-11 0         R Last Yr   A
+;
+2YCN1P  Sales FTI10
+1YCN     
+1YCN1A  Less: Cost of SalesFTI15
+1YDN    _SC 
+1YCN  1 Gross Profit / (Loss) TOT1
+1YCN     
+1YCN1A  Add: Other IncomeFTI20
+1YCN    _SC 
+1YCN1A   FMI20
+1YCN    _SC 
+1YCN     TOT1
+1YCN     
+1YCN1A  Less: ExpensesFTI25
+1YDN    _SC 
+1YDN1A   FMI25
+1YDN    _SC 
+1YCN    Net Profit/(Loss) before TaxTOT1
+1YCN     
+1YCN1A2 Less: Normal Taxation - Note 2FTI30
+1YDN    _SC 
+1YCN    Net Profit/(Loss) After TaxTOT1
+1YDN     
+1YCN1A  Less: Dividends Declared /PaidFTI35
+1YCN    _SC
+1YCN    Net Profit/(Loss) after Div.TOT1
+1YCN     
+1YCN1A  Retained Income/(Deficit B/FrdFTB15
+1YCN    _SC
+1YCN    Retained Income/(Deficit) TOT1
+1YCN    _DC
+PYCN     
+1YCN    Income Statement  Notes
+1YCN    ======================
+1YCN     
+1YCN    1) Sales/Cost of Sales Details
+1YCN    ------------------------------
+1YCN    Sales
+1YCN    ---------
+1YCN     FBI10
+1YCN    _SC
+1YCN    Total salesFTI10
+1YCN     
+1YCN    Less: Cost of Sales
+1YCN    ------------------------------
+1YCN     FBI15
+1YCN    _SC
+1YCN    Total Cost of SalesFTI15
+1YCN     
+1YCN   Gross Profit / (Loss)FTI10+FTI15
+1YCN   _DC
+1YCN     
+1YCN    2) Normal Taxation
+1YCN    ------------------------------
+1YDN     FBI30
+1YDN    _SC
+1YDN    Total TaxationFTI30
+1YDN    _DC
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
+1YDN     
